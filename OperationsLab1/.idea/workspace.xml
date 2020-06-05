@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7501f2a-62ea-4a4f-8046-29e6b772100a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEACypher/src/main/java/com/university/Cipher/IdeaCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/src/main/java/com/university/cipher/IdeaCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IDEACypher/src/test/java/IDEACipherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/src/test/java/IDEACipherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Algorithms/CryptologyAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/algorithms/CryptologyAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Algorithms/MontgomeryArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/algorithms/MontgomeryArithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CryptologyAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CryptologyAlgorithmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MontgomeryArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MontgomeryArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SHA-256/src/main/java/com/university/SHA256/SHA256Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/src/main/java/com/university/sha/SHA256Hash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SHA-256/src/test/java/SHA256HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/src/test/java/SHA256HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/algorithms/MontgomeryArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/algorithms/MontgomeryArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +120,7 @@
       <workItem from="1585593832339" duration="2390000" />
       <workItem from="1585600859519" duration="444000" />
       <workItem from="1588416719684" duration="2896000" />
-      <workItem from="1591359221344" duration="4707000" />
+      <workItem from="1591359221344" duration="7628000" />
     </task>
     <servers />
   </component>

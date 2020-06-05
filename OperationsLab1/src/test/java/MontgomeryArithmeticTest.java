@@ -27,7 +27,7 @@ public class MontgomeryArithmeticTest {
         MontgomeryArithmetic montgomeryArithmetic = new MontgomeryArithmetic(getRandomOddBigInteger(NUMBER_OF_BITS,random));
         BigInteger a = new BigInteger(NUMBER_OF_BITS,random);
         BigInteger e = BigInteger.valueOf(Long.valueOf(-1));
-        montgomeryArithmetic.pow(montgomeryArithmetic.convertIn(a),e);
+        montgomeryArithmetic.pow(montgomeryArithmetic.convertToMontgomeryNum(a),e);
     }
 
     @Test
@@ -38,8 +38,8 @@ public class MontgomeryArithmeticTest {
             BigInteger e = new BigInteger(NUMBER_OF_BITS,random);
             BigInteger n = getRandomOddBigInteger(NUMBER_OF_BITS,random);
             MontgomeryArithmetic montgomeryArithmetic = new MontgomeryArithmetic(n);
-            Assert.assertEquals(a.modPow(e,n), montgomeryArithmetic.convertOut(
-                    montgomeryArithmetic.pow(montgomeryArithmetic.convertIn(a),e)));
+            Assert.assertEquals(a.modPow(e,n), montgomeryArithmetic.convertFromMontgomeryNum(
+                    montgomeryArithmetic.pow(montgomeryArithmetic.convertToMontgomeryNum(a),e)));
         }
     }
 
@@ -51,8 +51,8 @@ public class MontgomeryArithmeticTest {
             BigInteger e = new BigInteger(NUMBER_OF_BITS,random);
             BigInteger n = getRandomOddBigInteger(NUMBER_OF_BITS,random);
             MontgomeryArithmetic montgomeryArithmetic = new MontgomeryArithmetic(n);
-            Assert.assertEquals(a.multiply(e).mod(n), montgomeryArithmetic.convertOut(
-                    montgomeryArithmetic.multiply(montgomeryArithmetic.convertIn(a),montgomeryArithmetic.convertIn(e))));
+            Assert.assertEquals(a.multiply(e).mod(n), montgomeryArithmetic.convertFromMontgomeryNum(
+                    montgomeryArithmetic.multiply(montgomeryArithmetic.convertToMontgomeryNum(a),montgomeryArithmetic.convertToMontgomeryNum(e))));
         }
     }
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218242c-128b-4982-8b62-e8c0075bb9c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/SHA256/SHA256Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/SHA256/SHA256Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperationsLab1/src/main/java/com/university/algorithms/MontgomeryArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OperationsLab1/src/main/java/com/university/algorithms/MontgomeryArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <updated>1588365623416</updated>
       <workItem from="1588365629250" duration="5557000" />
       <workItem from="1588415121309" duration="1198000" />
-      <workItem from="1591359267071" duration="3807000" />
+      <workItem from="1591359267071" duration="5731000" />
     </task>
     <servers />
   </component>
