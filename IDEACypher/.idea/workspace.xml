@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c783af6-3485-440a-8b5e-6d0a1e01670d" name="Default Changelist" comment="" />
+    <list default="true" id="7c783af6-3485-440a-8b5e-6d0a1e01670d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../OperationsLab1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bezierSurface/bezierSurface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Cipher/IdeaCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/Cipher/IdeaCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aiSZA06B7swDF4WASnBDQj8NZA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -36,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.IDEACipherTest.constantsTest">
+  <component name="RunManager" selected="JUnit.IDEACipherTest">
     <configuration name="IDEACipherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IDEACypher" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,9 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IDEACipherTest.constantsTest" />
-        <item itemvalue="JUnit.IDEACipherTest.IDEACypherTest" />
         <item itemvalue="JUnit.IDEACipherTest" />
+        <item itemvalue="JUnit.IDEACipherTest.IDEACypherTest" />
+        <item itemvalue="JUnit.IDEACipherTest.constantsTest" />
         <item itemvalue="JUnit.IDEACipherTest.testM" />
         <item itemvalue="JUnit.IDEACipherTest.testNewEcbVectors" />
       </list>
@@ -108,6 +120,7 @@
       <updated>1587216974014</updated>
       <workItem from="1587216978679" duration="12499000" />
       <workItem from="1588416369673" duration="319000" />
+      <workItem from="1591359261015" duration="5027000" />
     </task>
     <servers />
   </component>
@@ -123,22 +136,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1588416621154" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1588416691008">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1591364926461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588416691008" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1588416691008">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591364926461" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1591364926461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588416691008" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1588416691008">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591364926461" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1591364926461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588416691008" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1588416691008">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591364926461" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1591364926461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588416691008" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591364926461" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1587238419780">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7501f2a-62ea-4a4f-8046-29e6b772100a" name="Default Changelist" comment="" />
+    <list default="true" id="c7501f2a-62ea-4a4f-8046-29e6b772100a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bezierSurface/bezierSurface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEACypher/src/main/java/com/university/Cipher/IdeaCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IDEACypher/src/main/java/com/university/Cipher/IdeaCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zfg4aO7zzgGh2MkQo43ADrTkLb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -113,6 +125,7 @@
       <workItem from="1585593832339" duration="2390000" />
       <workItem from="1585600859519" duration="444000" />
       <workItem from="1588416719684" duration="2896000" />
+      <workItem from="1591359221344" duration="3877000" />
     </task>
     <servers />
   </component>
@@ -172,9 +185,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585420938489" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1588416722632">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1591359223992">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1588416722632" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1591359223992" />
   </component>
 </project>

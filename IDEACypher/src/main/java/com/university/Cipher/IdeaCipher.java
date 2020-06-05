@@ -4,13 +4,17 @@ public class IdeaCipher {
 
     private static final int ROUNDS = 8;
 
-    private static final int KEY_SIZE = 16;//bytes
+    private static final int KEY_SIZE = 16;//bytes - 128 bits
 
-    private static final int DATA_BLOCK_SIZE = 8;//bytes
+    private static final int DATA_BLOCK_SIZE = 8;//bytes - 64 bits
 
     private static final int BIT_MASK_8 = 0xFF;//255
 
     private static final int BIT_MASK_16 = 0xFFFF;//65535
+
+    private static final int MODULUS = 0x10000;//2^16
+
+    private static final int MODULUS_PLUS_ONE = 0x10001;//2^16 + 1
 
     private boolean encryptMode;
 
@@ -60,6 +64,7 @@ public class IdeaCipher {
     }
 
     public void crypt(byte[] data, int dataPos) {
+
         int x0 = ((data[dataPos + 0] & BIT_MASK_8) << 8) | (data[dataPos + 1] & BIT_MASK_8);
         int x1 = ((data[dataPos + 2] & BIT_MASK_8) << 8) | (data[dataPos + 3] & BIT_MASK_8);
         int x2 = ((data[dataPos + 4] & BIT_MASK_8) << 8) | (data[dataPos + 5] & BIT_MASK_8);
@@ -99,34 +104,30 @@ public class IdeaCipher {
     }
 
     private static int add(int a, int b) {
-        return ((a + b)% 0x10000) & BIT_MASK_16;
+        return ((a + b)% MODULUS) & BIT_MASK_16;
     }
 
     private static int addInv(int x) {
-        return (0x10000 - x) & BIT_MASK_16;
+        return (MODULUS - x) & BIT_MASK_16;
     }
 
     private static int mul(int a, int b) {
         long r = (long) a * b;
-        if (r != 0) {
-            return (int) (r % 0x10001) & BIT_MASK_16;
-        } else {
-            return (1 - a - b) & BIT_MASK_16;
-        }
+        return (int) (r % MODULUS_PLUS_ONE) & BIT_MASK_16;
     }
 
     private static int mulInv(int x) {
         if (x <= 1) {
             return x;
         }
-        int y = 0x10001;
+        int y = MODULUS_PLUS_ONE;
         int t0 = 1;
         int t1 = 0;
         while (true) {
             t1 += y / x * t0;
             y %= x;
             if (y == 1) {
-                return 0x10001 - t1;
+                return MODULUS_PLUS_ONE - t1;
             }
             t0 += x / y * t1;
             x %= y;
@@ -168,6 +169,7 @@ public class IdeaCipher {
         for (int i = 0; i < userKey.length / 2; i++) {
             key[i] = ((userKey[2 * i] & BIT_MASK_8) << 8) | (userKey[2 * i + 1] & BIT_MASK_8);
         }
+        //other keys
         for (int i = userKey.length / 2; i < numOfSubKeys; i++) {
             key[i] = ((key[(i + 1) % 8 != 0 ? i - 7 : i - 15] << 9) | (key[(i + 2) % 8 < 2 ? i - 14 : i - 6] >> 7)) & BIT_MASK_16;
         }
