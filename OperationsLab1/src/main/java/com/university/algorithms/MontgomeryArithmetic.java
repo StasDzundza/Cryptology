@@ -1,4 +1,4 @@
-package com.university.Algorithms;
+package com.university.algorithms;
 
 import java.math.BigInteger;
 import java.util.Objects;

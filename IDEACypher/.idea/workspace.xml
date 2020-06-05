@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c783af6-3485-440a-8b5e-6d0a1e01670d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OperationsLab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bezierSurface/bezierSurface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Cipher/IdeaCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/Cipher/IdeaCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OperationsLab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SHA-256/src/main/java/com/university/SHA256/SHA256Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SHA-256/src/main/java/com/university/SHA256/SHA256Hash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <updated>1587216974014</updated>
       <workItem from="1587216978679" duration="12499000" />
       <workItem from="1588416369673" duration="319000" />
-      <workItem from="1591359261015" duration="5027000" />
+      <workItem from="1591359261015" duration="5959000" />
     </task>
     <servers />
   </component>

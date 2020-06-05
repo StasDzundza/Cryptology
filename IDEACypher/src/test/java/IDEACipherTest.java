@@ -1,4 +1,4 @@
-import com.university.Cipher.IdeaCipher;
+import com.university.cipher.IdeaCipher;
 import org.junit.Assert;
 import org.junit.Test;
 

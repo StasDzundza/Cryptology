@@ -1,4 +1,4 @@
-package com.university.SHA256;
+package com.university.sha;
 
 import java.nio.ByteBuffer;
 
@@ -31,7 +31,7 @@ public class SHA256Hash {
 
     public static byte[]hash(byte[]input){
 
-        byte[]extendedMessage = extendInitialMessage(input);
+        byte[] extendedMessage = extendInitialMessage(input);
         int[] words = convertToIntArray(extendedMessage);
 
         //Algorithm used arrays

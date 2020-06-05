@@ -1,4 +1,4 @@
-package com.university.Cipher;
+package com.university.cipher;
 
 public class IdeaCipher {
 

@@ -1,4 +1,4 @@
-import com.university.SHA256.SHA256Hash;
+import com.university.sha.SHA256Hash;
 import org.junit.Assert;
 import org.junit.Test;
 

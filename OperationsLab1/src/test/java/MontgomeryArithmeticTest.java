@@ -1,4 +1,4 @@
-import com.university.Algorithms.MontgomeryArithmetic;
+import com.university.algorithms.MontgomeryArithmetic;
 import org.junit.Assert;
 import org.junit.Test;
 

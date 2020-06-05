@@ -1,4 +1,4 @@
-import com.university.Algorithms.CryptologyAlgorithms;
+import com.university.algorithms.CryptologyAlgorithms;
 import org.junit.Assert;
 import org.junit.Test;
 
